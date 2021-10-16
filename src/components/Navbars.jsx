@@ -13,10 +13,10 @@ const Navbars = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <NavLink to="/home">Home</NavLink>
-              <NavLink to="/products">Products</NavLink>
-              <NavLink to="/about">About</NavLink>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink className="text-decoration-none fw-bold fs-5 me-3 text-black-50" to="/home">Home</NavLink>
+              <NavLink className="text-decoration-none fw-bold fs-5 me-3 text-black-50" to="/products">Products</NavLink>
+              <NavLink className="text-decoration-none fw-bold fs-5 me-3 text-black-50" to="/about">About</NavLink>
+              <NavLink className="text-decoration-none fw-bold fs-5 me-3 text-black-50" to="/contact">Contact</NavLink>
             </Nav>
           </Navbar.Collapse>
           <div className="buttons">

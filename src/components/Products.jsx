@@ -55,7 +55,7 @@ const Products = () => {
   const ShowProducts = () => {
     return (
       <>
-        <div className="buttons d-flex justify-content-center pb-5">
+        <Col md={12} className="buttons d-flex justify-content-center pb-5">
           <button
             className="btn btn-outline-secondary me-2"
             onClick={() => setFilter(data)}
@@ -86,7 +86,7 @@ const Products = () => {
           >
             Electronics
           </button>
-        </div>
+        </Col>
         <Row md={4} className="g-4 mb-4">
           {filter.map((product) => {
             return (
