@@ -1,5 +1,6 @@
 import { Route, Switch } from "react-router";
 import "./App.css";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbars from "./components/Navbars";
 import Product from "./components/Product";
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/products/:id" component={Product} />
         <Route exact path="*"/>
       </Switch>{" "}
+      <Footer></Footer>
     </>
   );
 }
