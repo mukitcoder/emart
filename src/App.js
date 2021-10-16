@@ -11,10 +11,10 @@ function App() {
       <Navbars></Navbars>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route  path="/home" component={Home} />
-        <Route  path="/products" component={Products} />
-        <Route  path="/products/:id" component={Product} />
-        <Route path="*"/>
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/products" component={Products} />
+        <Route exact path="/products/:id" component={Product} />
+        <Route exact path="*"/>
       </Switch>{" "}
     </>
   );
